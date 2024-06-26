@@ -1,26 +1,53 @@
-
 <!-- view 小程序提供的容器组件，可以直接当初div使用 -->
 
 <!-- 轮播图区域 -->
 <view class="swiper">
-  <swiper autoplay circular  indicator-dots interval="2000" indicator-color="white" indicator-active-color="#f3514f">
+  <swiper autoplay circular indicator-dots interval="2000" indicator-color="white" indicator-active-color="#f3514f">
     <swiper-item>
-      <image src="../../assets/swiper/轮播图1.jpeg" mode="scaleToFill" show-menu-by-longpress lazy-load/>
+      <image src="../../assets/swiper/轮播图1.jpeg" mode="scaleToFill" show-menu-by-longpress lazy-load />
     </swiper-item>
     <swiper-item>
-      <image src="../../assets/swiper/轮播图2.jpeg" mode="scaleToFill" show-menu-by-longpress lazy-load/>
+      <image src="../../assets/swiper/轮播图2.jpeg" mode="scaleToFill" show-menu-by-longpress lazy-load />
     </swiper-item>
     <swiper-item>
-      <image src="../../assets/swiper/轮播图3.jpeg" mode="scaleToFill" show-menu-by-longpress lazy-load/>
+      <image src="../../assets/swiper/轮播图3.jpeg" mode="scaleToFill" show-menu-by-longpress lazy-load />
     </swiper-item>
   </swiper>
 </view>
 
 <!-- 公司信息 -->
-<view class="info"></view>
+<view class="info">
+
+  <text user-select space="emsp">同城配送</text>
+  <text user-select space="emsp">行业龙头</text>
+  <text user-select space="emsp">半小时送达</text>
+  <text user-select space="emsp">100%好评</text>
+</view>
 
 <!-- 商品导航 -->
-<view class="good-nav"></view>
-
-<!-- 推荐商品 -->
-<view class="good-hot"></view>
+<view class="good-nav">
+  <navigator url="/pages/list/list">
+    <view class="nav-item">
+      <image src="../../assets/good-nav/鲜花租赁.svg" mode="" />
+      <text>鲜花玫瑰</text>
+    </view>
+  </navigator>
+  <navigator url="/pages/list/list">
+    <view class="nav-item">
+      <image src="../../assets/good-nav/鲜花租赁.svg" mode="" />
+      <text>鲜花玫瑰</text>
+    </view>
+  </navigator>
+  <navigator url="/pages/list/list">
+    <view class="nav-item">
+      <image src="../../assets/good-nav/鲜花租赁.svg" mode="" />
+      <text>鲜花玫瑰</text>
+    </view>
+  </navigator>
+  <navigator url="/pages/list/list">
+    <view class="nav-item">
+      <image src="../../assets/good-nav/鲜花租赁.svg" mode="" />
+      <text>鲜花玫瑰</text>
+    </view>
+  </navigator>
+</view>

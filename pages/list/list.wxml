@@ -1,2 +1,4 @@
 <!--pages/list/list.wxml-->
 <text>pages/list/list.wxml</text>
+
+<navigator open-type="navigateBack">返回上一页</navigator>
